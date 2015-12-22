@@ -555,7 +555,7 @@ there.
   }
   .whitebox{
     display: block;
-  background-color:white;
+  background-color:none;
   width:120px;
   postion:fixed;
   top:0;
@@ -584,7 +584,7 @@ there.
   }
   .whitebox{
   display: block;
-  background-color:white;
+  background-color:none;
   width:120px;
   postion:fixed;
   top:0;
