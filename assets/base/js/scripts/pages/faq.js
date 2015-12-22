@@ -2,7 +2,7 @@
     'use strict';
 
     // init cubeportfolio
-    $('#grid-container').cubeportfolio({
+    $('#grid-container1').cubeportfolio({
         filters: '#filters-container',
         defaultFilter: '*',
         animationType: 'sequentially',
