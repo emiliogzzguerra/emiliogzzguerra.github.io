@@ -37,6 +37,27 @@
     color:white;
   }
 
+#ahorro.active{
+  background-color:rgba(21, 36, 90, 0.8);
+  color:white;
+}
+#inversion.active{
+  background-color:rgba(21, 36, 90, 0.8);
+  color:white;
+}
+#seguro.active{
+  background-color:rgba(21, 36, 90, 0.8);
+  color:white;
+}
+
+.c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark-mobile > .nav.navbar-nav > li > .c-link:active{
+  background-color:rgba(21, 36, 90, 0.8);
+}
+
+.c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark-mobile > .nav.navbar-nav > li > .c-link:hover{
+  background-color:rgba(21, 36, 90, 0.8);
+}
+
 .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark-mobile > .nav.navbar-nav > li .dropdown-menu > li > a{
   color:black;
 }
@@ -70,8 +91,13 @@
   display: none;
 }
 
-.c-desktop-logo,.c-desktop-logo-inverse,.c-mobile-logo{
-  margin-top:-15px;
+.c-desktop-logo{
+  margin-top:-65px;
+  margin-left:12px;
+}
+.c-desktop-logo-inverse{
+  margin-top:-55px;
+  margin-left:12px;
 }
 
 .dropdown-menu.c-menu-type-mega.c-menu-type-fullwidth{
@@ -566,7 +592,7 @@ there.
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 991px) {
   .c-main-title-circle{
     font-size: 2.5em;
     -webkit-margin-after: 0em;
@@ -591,7 +617,9 @@ there.
     background-color:rgba(21, 36, 90, 0.8);
   }
   .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark-mobile > .nav.navbar-nav > li .dropdown-menu > li > a{
-  color:white;
+    color:white;
+    background-color:none;
+  }
   
 }
 
@@ -623,6 +651,10 @@ there.
   .c-content-box.c-size-md.c-bg-white{
   margin-top:20px;
   }
+  #ahorro.active{
+    background-color: none;
+  }
+  
   
 }
 

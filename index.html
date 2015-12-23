@@ -57,11 +57,10 @@ Follow: http://www.twitter.com/themehats
                     <!-- BEGIN: BRAND -->
                     <div class="c-navbar-wrapper clearfix">
                         <div class="c-brand c-pull-left">
-                            <div class="whitebox"></div>
                             <a href="index.html" class="c-logo">
 
-                                <img src="assets/base/img/layout/logos/logo-3.png" alt="JANGO" class="c-desktop-logo" style="margin-top:-65px;margin-left:12px">
-                                <img src="assets/base/img/layout/logos/logo-3.png" alt="JANGO" class="c-desktop-logo-inverse" style="margin-top:-55px;margin-left:12px">
+                                <img src="assets/base/img/layout/logos/logo-3.png" alt="JANGO" class="c-desktop-logo">
+                                <img src="assets/base/img/layout/logos/logo-3.png" alt="JANGO" class="c-desktop-logo-inverse">
                                 <img src="assets/base/img/layout/logos/logo-1.png" alt="JANGO" class="c-mobile-logo"> </a>
                             <button class="c-hor-nav-toggler" type="button" data-target=".c-mega-menu">
                                 <span class="c-line"></span>
@@ -80,7 +79,7 @@ Follow: http://www.twitter.com/themehats
                         <nav class="c-mega-menu c-pull-right c-mega-menu-dark c-mega-menu-dark-mobile c-fonts-uppercase c-fonts-bold">
                             <ul class="nav navbar-nav c-theme-nav" >
                                 <li class="c-menu-type-classic">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">Ahorro
+                                    <a id="ahorro" href="javascript:;" class="c-link dropdown-toggle">Ahorro
                                         <span class="c-arrow c-toggler"></span>
                                     </a>
                                     <ul class="dropdown-menu c-menu-type-classic c-pull-left">
@@ -96,7 +95,7 @@ Follow: http://www.twitter.com/themehats
                                     </ul>
                                 </li>
                                 <li class="c-menu-type-classic">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">Inversion
+                                    <a id="inversion" href="javascript:;" class="c-link dropdown-toggle">Inversion
                                         <span class="c-arrow c-toggler"></span>
                                     </a>
                                     <ul class="dropdown-menu c-menu-type-classic c-pull-left">
@@ -109,7 +108,7 @@ Follow: http://www.twitter.com/themehats
                                     </ul>
                                 </li>
                                 <li class="c-menu-type-classic">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">Seguros
+                                    <a id="seguro" href="javascript:;" class="c-link dropdown-toggle">Seguros
                                         <span class="c-arrow c-toggler"></span>
                                     </a>
                                     <ul class="dropdown-menu c-menu-type-classic c-pull-left">
@@ -634,7 +633,7 @@ Follow: http://www.twitter.com/themehats
                             <div id="cero"class="cbp-item buying">
                                 <div class="cbp-caption">
                                     <div class="cbp-caption-defaultWrap">
-                                        <i class="fa fa-question"></i> ¿Cómo hace dinero VINIK? <i class="fa fa-check-circle-o"></i> ¿Puedo confiar en sus comparaciones? <i id="down" class="fa fa-sort-desc" style="color:black;margin-bottom:10px;"></i><i id="up" class="fa fa-sort-up" style="color:black;margin-bottom:10px;"></i> 
+                                        <i class="fa fa-question"></i> ¿Cómo hace dinero VINIK?<i id="down" class="fa fa-sort-desc" style="color:black;margin-bottom:10px;"></i><i id="up" class="fa fa-sort-up" style="color:black;margin-bottom:10px;"></i> 
                                     </div>
                                     <div class="cbp-caption-activeWrap">
                                         <div class="cbp-l-caption-body"> Sed venenatis ut tortor malesuada condimentum. Donec rhoncus, dolor id luctus feugiat, justo tortor blandit orci, non ullamcorper velit lectus porta mauris. </div>
@@ -767,6 +766,32 @@ Follow: http://www.twitter.com/themehats
                         hola = 1;
                     }
                 });
+                /*
+                $(window).resize(function() {
+                    console.log($(window).width());
+                    if ($(window).width() < 990) {
+                        $('#ahorro').addClass('small');
+                        $('#seguro').addClass('small');
+                        $('#inversion').addClass('small');
+                    } else {
+                        $('#ahorro').removeClass('small');
+                        $('#seguro').removeClass('small');
+                        $('#inversion').removeClass('small');
+                    };
+                });
+                */
+
+                
+                $('#ahorro').click(function(){
+                    $(this).toggleClass('active');
+                });
+                $('#seguro').click(function(){
+                    $(this).toggleClass('active');
+                });
+                $('#inversion').click(function(){
+                    $(this).toggleClass('active');
+                });
+                
                     
                 App.init(); // init core    
             });
