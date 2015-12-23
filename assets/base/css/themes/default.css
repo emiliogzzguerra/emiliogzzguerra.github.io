@@ -6,7 +6,7 @@ a {
   a:active,
   a:hover,
   a:focus {
-    color: #27366A; }
+    color:white; }
 
 .c-theme-link:focus,
 .c-theme-link:active,
@@ -80,7 +80,7 @@ a {
       color: #27366A !important; }
 
 .c-theme-ul-bg > li {
-  color: #ffffff;
+  color:red;
   background: #27366A !important; }
 
 .c-theme-font,

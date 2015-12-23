@@ -43,7 +43,7 @@ Follow: http://www.twitter.com/themehats
         <!-- BEGIN THEME STYLES -->
         <link href="assets/base/css/plugins.css" rel="stylesheet" type="text/css" />
         <link href="assets/base/css/components.css" id="style_components" rel="stylesheet" type="text/css" />
-        <link href="assets/base/css/themes/default.css" rel="stylesheet" id="style_theme" type="text/css" />
+        <link href="assets/base/css/themes/green2.css" rel="stylesheet" id="style_theme" type="text/css" />
         <link href="assets/base/css/custom.css" rel="stylesheet" type="text/css" />
         <!-- END THEME STYLES -->
         <link rel="shortcut icon" href="vinik.ico" /> </head>
@@ -60,8 +60,8 @@ Follow: http://www.twitter.com/themehats
                             <div class="whitebox"></div>
                             <a href="index.html" class="c-logo">
 
-                                <img src="assets/base/img/layout/logos/logo-2.png" alt="JANGO" class="c-desktop-logo" style="margin-top:-65px;margin-left:12px">
-                                <img src="assets/base/img/layout/logos/logo-2.png" alt="JANGO" class="c-desktop-logo-inverse" style="margin-top:-55px;margin-left:12px">
+                                <img src="assets/base/img/layout/logos/logo-3.png" alt="JANGO" class="c-desktop-logo" style="margin-top:-65px;margin-left:12px">
+                                <img src="assets/base/img/layout/logos/logo-3.png" alt="JANGO" class="c-desktop-logo-inverse" style="margin-top:-55px;margin-left:12px">
                                 <img src="assets/base/img/layout/logos/logo-1.png" alt="JANGO" class="c-mobile-logo"> </a>
                             <button class="c-hor-nav-toggler" type="button" data-target=".c-mega-menu">
                                 <span class="c-line"></span>
@@ -101,7 +101,7 @@ Follow: http://www.twitter.com/themehats
                                     </a>
                                     <ul class="dropdown-menu c-menu-type-classic c-pull-left">
                                         <li>
-                                            <a href="#">Seguro de Vida</a>
+                                            <a href="#" >Seguro de Vida</a>
                                         </li>
                                         <li>
                                             <a href="#">Seguro de Gastos Médicos</a>
@@ -123,12 +123,12 @@ Follow: http://www.twitter.com/themehats
                                 </li>
                                 <li>
                                     <a href="javascript:;" class="c-link dropdown-toggle">Blog
-                                        <span class="c-arrow c-toggler"></span>
+                                        <span class="c-toggler"></span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="javascript:;" class="c-link dropdown-toggle">Contacto
-                                        <span class="c-arrow c-toggler"></span>
+                                        <span class="c-toggler"></span>
                                     </a>
                                 </li>
                             </ul>
@@ -459,7 +459,7 @@ Follow: http://www.twitter.com/themehats
             <div class="c-content-box c-size-md c-bg-parallax" style="background-image: url(assets/base/img/content/backgrounds/bg-101.jpg); padding:40px 0; height:600px;">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6 wow animated fadeInLeft" style="padding: 100px 200px 0px 0px;">
+                        <div id="contLeft" class="col-sm-6 wow animated fadeInLeft">
                             <!-- Begin: Title 1 component -->
                             <div class="c-content-title-1">
                                 <h3 class="c-title c-font-uppercase c-font-bold" style="margin-top:-10px;text-align:center;color:white;">¿Qué es VINIK?</h3>
@@ -475,7 +475,7 @@ Follow: http://www.twitter.com/themehats
                                 <br>
                             </div>
                         </div>
-                        <div class="col-sm-6 wow animated fadeInRight" style="padding: 100px 0px 0px 0px; color:white;">
+                        <div id="contRight" class="col-sm-6 wow animated fadeInRight">
                             <!-- Begin: Title 1 component -->
                             <div class="c-content-title-1">
                                 <h3 class="c-font-uppercase c-font-bold" style="margin-top:-10px;text-align:center;color:white;">Nuestro Objetivo</h3>
@@ -484,8 +484,6 @@ Follow: http://www.twitter.com/themehats
                             <!-- End-->
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed elit diam nonummy nibh euismod tincidunt ut laoreet dolore magna aluam erat volutpat. Ut wisi enim ad minim veniam quis nostrud exerci et tation diam nisl ut aliquip
                                 ex ea commodo consequat euismod tincidunt ut laoreet dolore magna aluam. </p>
-
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed elit diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
                         </div>
                         
                     </div>
@@ -633,19 +631,21 @@ Follow: http://www.twitter.com/themehats
                         <h3>Preguntas Frecuentes</h3>
                         <div id="grid-container1" class="cbp cbp-l-grid-faq">
 
-                            <div class="cbp-item buying">
+                            <div id="cero"class="cbp-item buying">
                                 <div class="cbp-caption">
                                     <div class="cbp-caption-defaultWrap">
-                                        <i class="fa fa-question"></i> ¿Cómo hace dinero VINIK? </div>
+                                        <i class="fa fa-question"></i> ¿Cómo hace dinero VINIK? <i class="fa fa-check-circle-o"></i> ¿Puedo confiar en sus comparaciones? <i id="down" class="fa fa-sort-desc" style="color:black;margin-bottom:10px;"></i><i id="up" class="fa fa-sort-up" style="color:black;margin-bottom:10px;"></i> 
+                                    </div>
                                     <div class="cbp-caption-activeWrap">
                                         <div class="cbp-l-caption-body"> Sed venenatis ut tortor malesuada condimentum. Donec rhoncus, dolor id luctus feugiat, justo tortor blandit orci, non ullamcorper velit lectus porta mauris. </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="cbp-item buying">
+                            <div id="uno" class="cbp-item buying">
                                 <div class="cbp-caption">
                                     <div class="cbp-caption-defaultWrap">
-                                        <i class="fa fa-check-circle-o"></i> ¿Puedo confiar en sus comparaciones?</div>
+                                        <i class="fa fa-check-circle-o"></i> ¿Puedo confiar en sus comparaciones? <i id="down1" class="fa fa-sort-desc" style="color:black;margin-bottom:10px;"></i><i id="up1" class="fa fa-sort-up" style="color:black;margin-bottom:10px;"></i> 
+                                    </div>
                                     <div class="cbp-caption-activeWrap">
                                         <div class="cbp-l-caption-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                             <br/>Aenean justo velit, vulputate a posuere ac, laoreet sed urna. Suspendisse posuere blandit diam condimentum vestibulum. </div>
@@ -653,9 +653,10 @@ Follow: http://www.twitter.com/themehats
                                 </div>
                             </div>
                             <div class="cbp-item account">
-                                <div class="cbp-caption">
+                                <div id="dos" class="cbp-caption">
                                     <div class="cbp-caption-defaultWrap">
-                                        <i class="fa fa-user"></i> ¿Qué los diferencía de un agente de seguros? </div>
+                                        <i class="fa fa-user"></i> ¿Qué los diferencía de un agente de seguros? <i id="down2" class="fa fa-sort-desc" style="color:black;margin-bottom:10px;"></i><i id="up2" class="fa fa-sort-up" style="color:black;margin-bottom:10px;"></i>
+                                    </div>
                                     <div class="cbp-caption-activeWrap">
                                         <div class="cbp-l-caption-body"> Nulla condimentum nunc a euismod sodales. Aenean congue risus sed finibus ultricies. Proin porttitor, arcu eu eleifend faucibus, odio nisi faucibusNulla condimentum nunc a euismod sodales. Aenean congue risus sed
                                             finibus ultricies. Proin porttitor, arcu eu eleifend faucibus, odio nisi faucibus </div>
@@ -723,6 +724,50 @@ Follow: http://www.twitter.com/themehats
         <script>
             $(document).ready(function()
             {
+                
+                $("#down").show();
+                $("#up").hide();
+                $("#down1").show();
+                $("#up1").hide();
+                $("#down2").show();
+                $("#up2").hide();
+
+                var hola = 0;
+                
+                $("#cero").click(function(){
+                    if (hola) {
+                        $("#down").show();
+                        $("#up").hide();
+                        hola = 0;
+                    } else {
+                        $("#down").hide();
+                        $("#up").show();
+                        hola = 1;
+                    }
+                });
+                $("#uno").click(function(){
+                    if (hola) {
+                        $("#down1").show();
+                        $("#up1").hide();
+                        hola = 0;
+                    } else {
+                        $("#down1").hide();
+                        $("#up1").show();
+                        hola = 1;
+                    }
+                });
+                $("#dos").click(function(){
+                    if (hola) {
+                        $("#down2").show();
+                        $("#up2").hide();
+                        hola = 0;
+                    } else {
+                        $("#down2").hide();
+                        $("#up2").show();
+                        hola = 1;
+                    }
+                });
+                    
                 App.init(); // init core    
             });
         </script>

@@ -4043,11 +4043,11 @@ h1 {
    }
     .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark-mobile > .nav.navbar-nav > li > .c-link {
       border-bottom: 1px solid #808c9a;
-      color: #848484; }
+      color: black; }
       .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark-mobile > .nav.navbar-nav > li > .c-link:focus,
       .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark-mobile > .nav.navbar-nav > li > .c-link:hover {
         background: none;
-        color: #848484; }
+        color: black; }
     .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark-mobile > .nav.navbar-nav > li > .c-quick-sidebar-toggler {
       background: none; }
       .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark-mobile > .nav.navbar-nav > li > .c-quick-sidebar-toggler > .c-line {
