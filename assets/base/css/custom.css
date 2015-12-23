@@ -607,9 +607,7 @@ there.
   }
   ul.nav.navbar-nav.c-theme-nav > li.c-menu-type-classic > ul.dropdown-menu.c-menu-type-classic.c-pull-left{
     background-color:rgba(0, 0, 0, 0.7);
-    border-color: rgba(0, 0, 0, 0.7);
-    border-style:solid;
-    border-width: 0px 2px 2px 2px;
+
   }
   ul.nav.navbar-nav.c-theme-nav > li.c-menu-type-classic > ul.dropdown-menu.c-menu-type-classic.c-pull-left > li > a{
   }

@@ -766,21 +766,14 @@ Follow: http://www.twitter.com/themehats
                         hola = 1;
                     }
                 });
-                /*
+                
                 $(window).resize(function() {
-                    console.log($(window).width());
-                    if ($(window).width() < 990) {
-                        $('#ahorro').addClass('small');
-                        $('#seguro').addClass('small');
-                        $('#inversion').addClass('small');
-                    } else {
-                        $('#ahorro').removeClass('small');
-                        $('#seguro').removeClass('small');
-                        $('#inversion').removeClass('small');
+                    if ($(window).width() > 990) {
+                        $('#ahorro').removeClass('active');
+                        $('#seguro').removeClass('active');
+                        $('#inversion').removeClass('active');
                     };
                 });
-                */
-
                 
                 $('#ahorro').click(function(){
                     $(this).toggleClass('active');
