@@ -29,6 +29,8 @@
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+
+
 #title{
   margin-top:50px;
 }
@@ -38,6 +40,7 @@
     margin-bottom:40px;
   }
   #contRight{
+    margin-top:60px;
     width: 100%;
     color:white;
   }
@@ -117,7 +120,7 @@
 }
 
 .c-main-title-circle{
-    font-size: 3em;
+    font-size: 4em;
     margin-right: 5px;
     margin-left:5px;
 }
@@ -149,11 +152,7 @@
 
 /* For devices larger than 400px */
 @media (min-width: 400px) {
-  .c-main-title-circle{
-    font-size: 3em;
-    -webkit-margin-after: 0.5em;
-    
-  }
+
   .morris{
   display: none;
 }
@@ -171,11 +170,7 @@
 
 /* For devices larger than 550px */
 @media (min-width: 550px) {
-  .c-main-title-circle{
-    font-size: 2.5em;
-    margin-bottom: 0px;
-    padding:0;
-  }
+
   .c-desktop-logo,.c-desktop-logo-inverse,.c-mobile-logo{
   margin-top:-15px;
   }
@@ -255,11 +250,11 @@
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
-  font-size: 87.5%;
+  font-size: 62.5%;
   font-family: 'Source Sans Pro', sans-serif;
 }
 body {
-  font-size: 0.875em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
   font-family: 'Source Sans Pro', sans-serif;
@@ -542,12 +537,7 @@ there.
 
 /* Larger than mobile */
 @media (min-width: 400px) {
-  .c-main-title-circle{
-    font-size: 2.5em;
-    margin-right: 10px;
-    margin-left:10px;
-    -webkit-margin-after: 0.5em;
-  }
+
   .c-action-btn.btn.btn-lg.c-btn-square.c-theme-btn.c-btn-bold.c-btn-uppercase{
     margin-top: 50px;
   }
@@ -559,15 +549,17 @@ there.
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
+
+  .c-main-title-circle{
+    font-size: 3.5em;
+    margin-right: 5px;
+    margin-left:5px;
+  }
+
   .c-action-btn.btn.btn-lg.c-btn-square.c-theme-btn.c-btn-bold.c-btn-uppercase{
     margin-top: 0px;
   }
-  .c-main-title-circle{
-    font-size: 2.5em;
-    -webkit-margin-after: 0.5em;
-    margin-right: 10px;
-    margin-left:10px;
-  }
+
   .c-desktop-logo,.c-desktop-logo-inverse,.c-mobile-logo{
   margin-top:-10px;
   }
@@ -576,6 +568,9 @@ there.
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+  
+
+
   .c-main-title-circle{
     font-size: 2.5em;
     -webkit-margin-after: 0em;
@@ -588,14 +583,19 @@ there.
   .c-desktop-logo,.c-desktop-logo-inverse,.c-mobile-logo{
   margin-top:-10px;
   }
-  #contLeft{
+  #cotizaAhorro{
+    margin-right:120px;
+  }
+}
+@media (min-width: 767px) {
+#contLeft{
     width: 50%;
-    padding: 100px 200px 0px 0px;
+    padding-top: 175px;
   }
   #contRight{
-    padding: 100px 0px 0px 0px; 
-    color:white;
-    width: 50%
+    margin-top:0px;
+    width: 50%;
+    padding-top: 175px;
   }
 }
 
@@ -604,12 +604,7 @@ there.
   #title{
     margin-top:20px;
   }
-  .c-main-title-circle{
-    font-size: 2.5em;
-    -webkit-margin-after: 0em;
-    margin-right: 10px;
-    margin-left:10px;
-  }
+
   .c-action-btn.btn.btn-lg.c-btn-square.c-theme-btn.c-btn-bold.c-btn-uppercase{
     margin-top: -50px;
   }
@@ -629,6 +624,9 @@ there.
     color:white;
     background-color:none;
   }
+  #cotizaAhorro{
+    margin-right:150px;
+  }
   
 }
 
@@ -636,12 +634,7 @@ there.
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
-  .c-main-title-circle{
-    font-size: 2.5em;
-    -webkit-margin-after: 0em;
-    margin-right: 10px;
-    margin-left:10px;
-  }
+
   .c-action-btn.btn.btn-lg.c-btn-square.c-theme-btn.c-btn-bold.c-btn-uppercase{
     margin-top: -75px;
   }
@@ -663,7 +656,9 @@ there.
   #ahorro.active{
     background-color: none;
   }
-  
+  #cotizaAhorro{
+    margin-right:175px;
+  }
   
 }
 
@@ -671,12 +666,6 @@ there.
 @media (min-width: 1200px) {
   .c-desktop-logo,.c-desktop-logo-inverse,.c-mobile-logo{
   margin-top:-15px;
-  }
-  .c-main-title-circle{
-    font-size: 2.5em;
-    -webkit-margin-after: 0em;
-    margin-right: 10px;
-    margin-left:10px;
   }
   .c-action-btn.btn.btn-lg.c-btn-square.c-theme-btn.c-btn-bold.c-btn-uppercase{
     margin-top: -75px;
@@ -695,5 +684,7 @@ there.
   padding-bottom:100px;
   }
   
-
+  #cotizaAhorro{
+    margin-right:200px;
+  }
 }
