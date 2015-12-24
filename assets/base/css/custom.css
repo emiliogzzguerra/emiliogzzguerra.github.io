@@ -29,6 +29,10 @@
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+#title{
+  margin-top:50px;
+}
+
 #contLeft{
     width: 100%;
     margin-bottom:40px;
@@ -251,12 +255,14 @@
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
-  font-size: 62.5%; }
+  font-size: 87.5%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 0.875em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
  }
 
 
@@ -594,6 +600,9 @@ there.
 }
 
 @media (min-width: 991px) {
+  #title{
+    margin-top:20px;
+  }
   .c-main-title-circle{
     font-size: 2.5em;
     -webkit-margin-after: 0em;
