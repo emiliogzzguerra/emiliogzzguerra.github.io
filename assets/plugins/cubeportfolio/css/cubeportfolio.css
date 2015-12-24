@@ -26,7 +26,8 @@
     --------------------------------------------------------------- */
 .cbp-item {
   display: inline-block;
-  margin: 0 10px 20px 0; }
+  margin: 0 10px 20px 0;
+  }
 
 .cbp {
   position: relative;
@@ -199,7 +200,9 @@
     none caption
     --------------------------------------------------------------- */
 .cbp-caption-none .cbp-caption-activeWrap {
-  display: none; }
+  display: none; 
+
+}
 
 /*  END - none caption */
 /*  ---------------------------------------------------------------
@@ -3336,7 +3339,9 @@
   bottom: 0px;
   left: 50%;
   margin-left: -5px;
-  z-index: 1; }
+  z-index: 1; 
+  
+}
 
 .cbp-l-grid-agency.cbp-caption-zoom .cbp-caption:hover .cbp-caption-defaultWrap {
   /* @editable properties */
