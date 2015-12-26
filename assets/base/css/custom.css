@@ -710,6 +710,14 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
+  #textCarouselLeft{
+  width:50%;
+  margin-top:0px;
+  }
+  #textCarouselRight{
+    width:50%;
+    margin-left:30px;
+  }
   .c-desktop-logo,.c-desktop-logo-inverse,.c-mobile-logo{
   margin-top:-15px;
   }
