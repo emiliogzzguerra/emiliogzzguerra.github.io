@@ -711,13 +711,12 @@ there.
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
   #textCarouselLeft{
-  width:50%;
-  margin-top:0px;
+  font-size: 0.8em;
   }
   #textCarouselRight{
-    width:50%;
-    margin-left:30px;
+    font-size: 0.8em;
   }
+
   .c-desktop-logo,.c-desktop-logo-inverse,.c-mobile-logo{
   margin-top:-15px;
   }
@@ -740,5 +739,6 @@ there.
   
   #cotizaAhorro{
     margin-right:200px;
+    font-size: 0.7em;
   }
 }
