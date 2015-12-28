@@ -28,6 +28,11 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.c-mobile-logo{
+  margin-top:-10px;
+}
+
 #queEsVinik{
   background-color:black;
   background-image:none;

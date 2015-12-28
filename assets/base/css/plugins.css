@@ -6945,8 +6945,9 @@ label.control-label {
 .cbp-caption-expand .cbp-caption-defaultWrap {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
-  font-weight: 400;
-  color: #3f444a; }
+  font-weight: 500;
+  color: #27366A;
+   }
   .cbp-caption-expand .cbp-caption-defaultWrap .fa {
     margin-right: 6px;
     width: 20px;
