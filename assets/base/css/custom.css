@@ -29,6 +29,17 @@
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+#boton1:hover{
+  background-color:#111E4E;
+  border-color:#111E4E;
+}
+
+#boton2:hover{
+  background-color:#111E4E;
+  border-color:#111E4E;
+}
+
+
 #textCarouselLeft{
   margin-top:-200px;
   width:100%;
