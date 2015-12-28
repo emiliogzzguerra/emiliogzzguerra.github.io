@@ -240,7 +240,7 @@
             </div>
             <!-- END: CONTENT/MISC/SERVICES-3 -->
             <!-- BEGIN: CONTENT/FEATURES/FEATURES-2 -->
-            <div id="queEsVinik" class="c-content-box c-size-md c-bg-parallax" style="background-image: url(assets/base/img/content/backgrounds/bg-111.jpg);padding:40px 0; height:600px;">
+            <div id="queEsVinik" class="c-content-box c-size-md c-bg-parallax" style="background-image: url(assets/base/img/content/backgrounds/bg-118.jpg);padding:40px 0; height:600px;">
                 <div class="container">
                     <div class="row">
                         <div id="contLeft" class="col-md-6 col-sm-12 wow animated fadeInLeft">
@@ -295,7 +295,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-3 col-sm-6 wow animate fadeInLeft" data-wow-delay="0.2s">
+                        <div id="compara" class="col-md-3 col-sm-6 wow animate fadeInLeft" data-wow-delay="0.2s">
                             <div class="c-content-step-1 c-opt-1">
                                 <div class="c-icon">
                                     <span class="c-hr c-hr-first">
@@ -306,7 +306,7 @@
                                 <div class="c-description c-font-17"style="padding:0px;"> Los mejores productos del mercado. </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6 wow animate fadeInLeft" data-wow-delay="0.3s">
+                        <div id="elige" class="col-md-3 col-sm-6 wow animate fadeInLeft" data-wow-delay="0.3s">
                             <div class="c-content-step-1 c-opt-1">
                                 <div class="c-icon">
                                     <span class="c-hr">
@@ -317,7 +317,7 @@
                                 <div class="c-description c-font-17"style="padding:0px;"> La opción que más te convenga. </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6 wow animate fadeInLeft" data-wow-delay="0.4s">
+                        <div id="contacta" class="col-md-3 col-sm-6 wow animate fadeInLeft" data-wow-delay="0.4s">
                             <div class="c-content-step-1 c-opt-1">
                                 <div class="c-icon">
                                     <span class="c-hr">
@@ -328,7 +328,7 @@
                                 <div class="c-description c-font-17"style="padding:0px;"> A nuestros asesores, o nosotros te marcamos. </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6 wow animate fadeInLeft" data-wow-delay="0.5s">
+                        <div id="contrata" class="col-md-3 col-sm-6 wow animate fadeInLeft" data-wow-delay="0.5s">
                             <div class="c-content-step-1 c-opt-1">
                                 <div class="c-icon">
                                     <span class="c-hr c-hr-last">
@@ -547,6 +547,11 @@
                         $( "#contRight" ).removeClass( "wow animated fadeInRight");
                         $("#queEsVinik").css("background-color", "#19BB00");
                         $("#queEsVinik").css("background-image", "none");
+                        $( "#compara" ).removeClass( "wow animate fadeInLeft");
+                        $( "#elige" ).removeClass( "wow animate fadeInLeft");
+                        $( "#contacta" ).removeClass( "wow animate fadeInLeft");
+                        $( "#contrata" ).removeClass( "wow animate fadeInLeft");
+                        
                 };
 
                 $(window).resize(function() {
