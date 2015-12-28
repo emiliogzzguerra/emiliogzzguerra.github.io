@@ -8506,7 +8506,8 @@ h1 {
 .c-content-feature-2 {
   padding: 40px 40px 40px 40px;
   margin-bottom: 20px;
-  background: #ffffff; }
+  background-color: white;
+ }
   .c-content-feature-2 .c-icon-wrapper {
     width: 70px;
     height: 70px;
@@ -8527,7 +8528,7 @@ h1 {
     font-size: 17px;
     color: #5c6873;
     font-weight: 300;
-    padding-left: 95px;
+    padding-left: 0px;
     margin: 0; }
   .c-content-feature-2.c-option-2 {
     cursor: pointer;

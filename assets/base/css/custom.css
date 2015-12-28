@@ -29,6 +29,14 @@
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+#firstTextCarousel{
+  font-size:13pt;
+}
+
+#boton1{
+  margin-top:50px;
+}
+
 #boton1:hover{
   background-color:#111E4E;
   border-color:#111E4E;
@@ -174,6 +182,14 @@
 
 /* For devices larger than 400px */
 @media (min-width: 400px) {
+  #firstTextCarousel{
+  font-size:2.5em;
+}
+
+  #boton1{
+  margin-top:0px;
+  }
+
   #textCarouselLeft{
   margin-top:-200px;
   width:100%;
@@ -612,6 +628,9 @@ there.
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+  #boton1{
+  margin-top:-20px;
+  }
   #textCarouselLeft{
   width:50%;
   margin-top:0px;
