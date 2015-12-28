@@ -65,14 +65,11 @@
   margin-top:50px;
 }
 
-#contLeft{
-    width: 100%;
-    margin-bottom:40px;
+  #contLeft{
+    margin-top:20px;
   }
   #contRight{
-    margin-top:60px;
-    width: 100%;
-    color:white;
+  margin-top:20px;   
   }
 
 #ahorro.active{
@@ -182,6 +179,9 @@
 
 /* For devices larger than 400px */
 @media (min-width: 400px) {
+  #contLeft{
+    margin-top:0px;
+  }
   #firstTextCarousel{
   font-size:2.5em;
 }
