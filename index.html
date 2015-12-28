@@ -541,6 +541,10 @@
                         hola = 1;
                     }
                 });
+                if ($(window).width() < 400) {
+                        $( "#contLeft" ).removeClass( "wow animated fadeInLeft" );
+                        $( "#contRight" ).removeClass( "wow animated fadeInRight");
+                };
                 
                 $(window).resize(function() {
                     if ($(window).width() > 990) {
@@ -548,6 +552,7 @@
                         $('#seguro').removeClass('active');
                         $('#inversion').removeClass('active');
                     };
+                    
                 });
                 
                 $('#ahorro').click(function(){
