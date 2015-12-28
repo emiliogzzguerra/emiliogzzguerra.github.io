@@ -251,13 +251,13 @@
                             </div>
                             <!-- End-->
                             <div class="c-content-bar-1 c-opt-1">
-                                <div>
+                                <div id="significado">
                                     <!--
                                     <h4 class="c-font-uppercase c-font-bold wow animate fadeInDown" data-wow-delay="0.2s" style="text-align:left;margin-bottom:3px;color:white;"><span style="color:#3F55A0;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V</span>inculos</h4>
                                     <h4 class="c-font-uppercase c-font-bold wow animate fadeInDown" data-wow-delay="0.4s" style="text-align:center; margin-bottom:3px;color:white;"><span style="color:#3F55A0;">In</span>version</h4>
                                     <h4 class="c-font-uppercase c-font-bold wow animate fadeInDown" data-wow-delay="0.6s" style="text-align:left;margin-bottom:3px;color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sin<span style="color:#3F55A0;">ik</span> <span style="font-size:13px;vertical-align:center;">(Hormiga en maya)</span></h4>
                                     -->
-                                    <img src="assets/base/img/significado.png">
+                                    <img class="bigScreen" src="assets/base/img/significadoVerde.png">
                                 </div>
                                 <br>
                             </div>
@@ -551,6 +551,9 @@
                         $( "#elige" ).removeClass( "wow animate fadeInLeft");
                         $( "#contacta" ).removeClass( "wow animate fadeInLeft");
                         $( "#contrata" ).removeClass( "wow animate fadeInLeft");
+                        $( ".bigScreen" ).remove();
+                        $('#significado').prepend('<img class="smallScreen" src="assets/base/img/significado.png">')
+
                         
                 };
 
