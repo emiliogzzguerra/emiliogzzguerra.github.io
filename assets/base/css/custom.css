@@ -36,20 +36,10 @@
   font-size:13pt;
 }
 
-#boton1{
-  margin-top:50px;
-}
-
-#boton1:hover{
+.cotiza:hover{
   background-color:#111E4E;
   border-color:#111E4E;
 }
-
-#boton2:hover{
-  background-color:#111E4E;
-  border-color:#111E4E;
-}
-
 
 #textCarouselLeft{
   margin-top:-200px;
@@ -182,6 +172,11 @@
 
 /* For devices larger than 400px */
 @media (min-width: 415px) {
+  .captions{
+    font-size:15pt;
+  }
+
+
   #queEsVinik{
     background-image: url(assets/base/img/content/backgrounds/bg-111.jpg);
     background-color: transparent;
@@ -225,6 +220,9 @@
 
 /* For devices larger than 550px */
 @media (min-width: 550px) {
+  .captions{
+    font-size:2.5em;
+  }
 
   .c-desktop-logo,.c-desktop-logo-inverse,.c-mobile-logo{
   margin-top:-15px;
