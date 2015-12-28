@@ -28,7 +28,10 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+#queEsVinik{
+  background-color:black;
+  background-image:none;
+}
 #firstTextCarousel{
   font-size:13pt;
 }
@@ -179,6 +182,10 @@
 
 /* For devices larger than 400px */
 @media (min-width: 400px) {
+  #queEsVinik{
+    background-image: url(assets/base/img/content/backgrounds/bg-111.jpg);
+    background-color: transparent;
+  }
   #contLeft{
     margin-top:0px;
   }

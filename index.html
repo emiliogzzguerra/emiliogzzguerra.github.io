@@ -240,7 +240,7 @@
             </div>
             <!-- END: CONTENT/MISC/SERVICES-3 -->
             <!-- BEGIN: CONTENT/FEATURES/FEATURES-2 -->
-            <div class="c-content-box c-size-md c-bg-parallax" style="background-image: url(assets/base/img/content/backgrounds/bg-111.jpg); padding:40px 0; height:600px;">
+            <div id="queEsVinik" class="c-content-box c-size-md c-bg-parallax" style="background-image: url(assets/base/img/content/backgrounds/bg-111.jpg);padding:40px 0; height:600px;">
                 <div class="container">
                     <div class="row">
                         <div id="contLeft" class="col-md-6 col-sm-12 wow animated fadeInLeft">
@@ -541,10 +541,12 @@
                         hola = 1;
                     }
                 });
-                
-                if ($(window).width() < 500) {
+
+                if ($(window).width() < 400) {
                         $( "#contLeft" ).removeClass( "wow animated fadeInLeft" );
                         $( "#contRight" ).removeClass( "wow animated fadeInRight");
+                        $("#queEsVinik").css("background-color", "#19BB00");
+                        $("#queEsVinik").css("background-image", "none");
                 };
 
                 $(window).resize(function() {
