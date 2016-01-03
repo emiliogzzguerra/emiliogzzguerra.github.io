@@ -28,15 +28,16 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+power{
+  font-size: 20px;
+  color:#19bb02;
+  text-decoration: bold; 
+}
 .c-mobile-logo{
   margin-top:-10px;
 }
 
-#queEsVinik{
-  background-color:black;
-  background-image:none;
-}
+
 #firstTextCarousel{
   font-size:13pt;
 }
