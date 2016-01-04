@@ -302,7 +302,7 @@
                         <div id="compara" class="col-md-3 col-sm-6 wow animate fadeInLeft" data-wow-delay="0.3s">
                             <div class="c-content-step-1 c-opt-1">
                                 <div class="c-icon">
-                                    <span class="c-hr c-hr-first">
+                                    <span id="compara" class="c-hr c-hr-first">
                                         <img class="bigScreen" src="assets/base/img/compara.png" style="width:5.75em;">
                                     </span>
                                 </div>
@@ -554,7 +554,15 @@
                         $( "#contacta" ).removeClass( "wow animate fadeInLeft");
                         $( "#contrata" ).removeClass( "wow animate fadeInLeft");
                         $( ".bigScreen" ).remove();
-                        $('#significado').prepend('<img class="smallScreen" src="assets/base/img/significadoVerde.png">')
+                        $('#significado').prepend('<img class="smallScreen" src="assets/base/img/significadoVerde.png">');
+                        $('#compara').prepend('<img class="bigScreen" src="assets/base/img/compara.png" style="width:5.75em;display:block;margin-right:auto;margin-left:auto;">');
+                        $('#elige').prepend('<img class="bigScreen" src="assets/base/img/elige.png" style="width:5.75em;display:block;margin-right:auto;margin-left:auto;">');
+                        $('#contacta').prepend('<img class="bigScreen" src="assets/base/img/contacta.png" style="width:5.75em;display:block;margin-right:auto;margin-left:auto;">');
+                        $('#contrata').prepend('<img class="bigScreen" src="assets/base/img/contrata.png" style="width:5.75em;display:block;margin-right:auto;margin-left:auto;">');
+
+                        
+
+
 
                         
                 };
