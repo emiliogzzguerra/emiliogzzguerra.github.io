@@ -29,9 +29,7 @@
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 power{
-  font-size: 20px;
-  color:#19bb02;
-  text-decoration: bold; 
+  font-weight:500; 
 }
 .c-mobile-logo{
   margin-top:-10px;
