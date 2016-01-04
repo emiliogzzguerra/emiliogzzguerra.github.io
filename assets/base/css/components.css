@@ -5697,7 +5697,7 @@ h1 {
   display: inline-block;
   position: fixed;
   bottom: 20px;
-  right: 10px;
+  left: 10px;
   cursor: pointer; }
   .c-layout-go2top > i {
     opacity: 0.5;
